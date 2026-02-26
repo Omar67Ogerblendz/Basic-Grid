@@ -1,0 +1,23 @@
+            :root {
+            --dark-blue: #ffffff;
+            --light-green: #000000;
+            --yellow: #ffffff;
+            --orange: #000000;
+            --white: #ffffff;
+            }
+            .container {
+            color: var(--dark-blue);
+            font-size: 20px;
+            font-weight: bold;
+            min-height: 100vh;
+            background-color: var(--yellow);
+            }
+
+            .row {
+            border: 1px solid var(--dark-blue);
+            min-height: 50px;
+            }
+
+            [class^="col-"] {
+            border: 1px solid var(--light-green);
+            min-height: 50px;}
